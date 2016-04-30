@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F43B1C5F1CA6E4E2000E603E /* DetaiRimataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43B1C5E1CA6E4E2000E603E /* DetaiRimataController.swift */; };
+		F4D2C5211C594A0500CABA2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D2C5201C594A0500CABA2F /* Assets.xcassets */; };
+		F4D2C52F1C594A0500CABA2F /* RimataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2C52E1C594A0500CABA2F /* RimataTests.swift */; };
+		F4D2C53A1C594A0500CABA2F /* RimataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2C5391C594A0500CABA2F /* RimataUITests.swift */; };
+		F4D2C54F1C594A8500CABA2F /* RimataDataEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2C5481C594A8500CABA2F /* RimataDataEngine.swift */; };
+		F4D2C5531C594A8500CABA2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D2C54C1C594A8500CABA2F /* LaunchScreen.storyboard */; };
+		F4D2C5541C594A8500CABA2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2C54D1C594A8500CABA2F /* AppDelegate.swift */; };
+		F4D2C5561C594AD900CABA2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D2C5551C594AD900CABA2F /* Main.storyboard */; };
+		F4D3D61E1CB55C600037443A /* RimataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3D61D1CB55C600037443A /* RimataTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4D2C52B1C594A0500CABA2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4D2C50E1C594A0500CABA2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4D2C5151C594A0500CABA2F;
+			remoteInfo = FruitApp;
+		};
+		F4D2C5361C594A0500CABA2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4D2C50E1C594A0500CABA2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4D2C5151C594A0500CABA2F;
+			remoteInfo = FruitApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F43B1C5E1CA6E4E2000E603E /* DetaiRimataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetaiRimataController.swift; sourceTree = "<group>"; };
+		F4D2C5161C594A0500CABA2F /* Rimata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rimata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D2C5201C594A0500CABA2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4D2C5251C594A0500CABA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D2C52A1C594A0500CABA2F /* Rimata.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rimata.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D2C52E1C594A0500CABA2F /* RimataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimataTests.swift; sourceTree = "<group>"; };
+		F4D2C5301C594A0500CABA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D2C5351C594A0500CABA2F /* Rimata.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rimata.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D2C5391C594A0500CABA2F /* RimataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimataUITests.swift; sourceTree = "<group>"; };
+		F4D2C53B1C594A0500CABA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D2C5481C594A8500CABA2F /* RimataDataEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RimataDataEngine.swift; sourceTree = "<group>"; };
+		F4D2C54C1C594A8500CABA2F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4D2C54D1C594A8500CABA2F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4D2C5551C594AD900CABA2F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F4D3D61D1CB55C600037443A /* RimataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RimataTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4D2C5131C594A0500CABA2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D2C5271C594A0500CABA2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D2C5321C594A0500CABA2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4D2C50D1C594A0500CABA2F = {
+			isa = PBXGroup;
+			children = (
+				F4D2C5181C594A0500CABA2F /* Rimata */,
+				F4D2C52D1C594A0500CABA2F /* RimataTests */,
+				F4D2C5381C594A0500CABA2F /* RimataUITests */,
+				F4D2C5171C594A0500CABA2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4D2C5171C594A0500CABA2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4D2C5161C594A0500CABA2F /* Rimata.app */,
+				F4D2C52A1C594A0500CABA2F /* Rimata.xctest */,
+				F4D2C5351C594A0500CABA2F /* Rimata.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4D2C5181C594A0500CABA2F /* Rimata */ = {
+			isa = PBXGroup;
+			children = (
+				F4D2C5551C594AD900CABA2F /* Main.storyboard */,
+				F43B1C5E1CA6E4E2000E603E /* DetaiRimataController.swift */,
+				F4D3D61D1CB55C600037443A /* RimataTableViewController.swift */,
+				F4D2C5481C594A8500CABA2F /* RimataDataEngine.swift */,
+				F4D2C54C1C594A8500CABA2F /* LaunchScreen.storyboard */,
+				F4D2C54D1C594A8500CABA2F /* AppDelegate.swift */,
+				F4D2C5201C594A0500CABA2F /* Assets.xcassets */,
+				F4D2C5251C594A0500CABA2F /* Info.plist */,
+			);
+			path = Rimata;
+			sourceTree = "<group>";
+		};
+		F4D2C52D1C594A0500CABA2F /* RimataTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4D2C52E1C594A0500CABA2F /* RimataTests.swift */,
+				F4D2C5301C594A0500CABA2F /* Info.plist */,
+			);
+			name = RimataTests;
+			path = FruitAppTests;
+			sourceTree = "<group>";
+		};
+		F4D2C5381C594A0500CABA2F /* RimataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4D2C5391C594A0500CABA2F /* RimataUITests.swift */,
+				F4D2C53B1C594A0500CABA2F /* Info.plist */,
+			);
+			name = RimataUITests;
+			path = FruitAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4D2C5151C594A0500CABA2F /* Rimata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D2C53E1C594A0500CABA2F /* Build configuration list for PBXNativeTarget "Rimata" */;
+			buildPhases = (
+				F4D2C5121C594A0500CABA2F /* Sources */,
+				F4D2C5131C594A0500CABA2F /* Frameworks */,
+				F4D2C5141C594A0500CABA2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rimata;
+			productName = FruitApp;
+			productReference = F4D2C5161C594A0500CABA2F /* Rimata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4D2C5291C594A0500CABA2F /* RimataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D2C5411C594A0500CABA2F /* Build configuration list for PBXNativeTarget "RimataTests" */;
+			buildPhases = (
+				F4D2C5261C594A0500CABA2F /* Sources */,
+				F4D2C5271C594A0500CABA2F /* Frameworks */,
+				F4D2C5281C594A0500CABA2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4D2C52C1C594A0500CABA2F /* PBXTargetDependency */,
+			);
+			name = RimataTests;
+			productName = FruitAppTests;
+			productReference = F4D2C52A1C594A0500CABA2F /* Rimata.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4D2C5341C594A0500CABA2F /* RimataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D2C5441C594A0500CABA2F /* Build configuration list for PBXNativeTarget "RimataUITests" */;
+			buildPhases = (
+				F4D2C5311C594A0500CABA2F /* Sources */,
+				F4D2C5321C594A0500CABA2F /* Frameworks */,
+				F4D2C5331C594A0500CABA2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4D2C5371C594A0500CABA2F /* PBXTargetDependency */,
+			);
+			name = RimataUITests;
+			productName = FruitAppUITests;
+			productReference = F4D2C5351C594A0500CABA2F /* Rimata.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4D2C50E1C594A0500CABA2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SaintBrigid;
+				TargetAttributes = {
+					F4D2C5151C594A0500CABA2F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F4D2C5291C594A0500CABA2F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F4D2C5151C594A0500CABA2F;
+					};
+					F4D2C5341C594A0500CABA2F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F4D2C5151C594A0500CABA2F;
+					};
+				};
+			};
+			buildConfigurationList = F4D2C5111C594A0500CABA2F /* Build configuration list for PBXProject "Rimata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4D2C50D1C594A0500CABA2F;
+			productRefGroup = F4D2C5171C594A0500CABA2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4D2C5151C594A0500CABA2F /* Rimata */,
+				F4D2C5291C594A0500CABA2F /* RimataTests */,
+				F4D2C5341C594A0500CABA2F /* RimataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4D2C5141C594A0500CABA2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D2C5561C594AD900CABA2F /* Main.storyboard in Resources */,
+				F4D2C5531C594A8500CABA2F /* LaunchScreen.storyboard in Resources */,
+				F4D2C5211C594A0500CABA2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D2C5281C594A0500CABA2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D2C5331C594A0500CABA2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4D2C5121C594A0500CABA2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43B1C5F1CA6E4E2000E603E /* DetaiRimataController.swift in Sources */,
+				F4D2C54F1C594A8500CABA2F /* RimataDataEngine.swift in Sources */,
+				F4D3D61E1CB55C600037443A /* RimataTableViewController.swift in Sources */,
+				F4D2C5541C594A8500CABA2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D2C5261C594A0500CABA2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D2C52F1C594A0500CABA2F /* RimataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D2C5311C594A0500CABA2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D2C53A1C594A0500CABA2F /* RimataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4D2C52C1C594A0500CABA2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4D2C5151C594A0500CABA2F /* Rimata */;
+			targetProxy = F4D2C52B1C594A0500CABA2F /* PBXContainerItemProxy */;
+		};
+		F4D2C5371C594A0500CABA2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4D2C5151C594A0500CABA2F /* Rimata */;
+			targetProxy = F4D2C5361C594A0500CABA2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4D2C53C1C594A0500CABA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4D2C53D1C594A0500CABA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4D2C53F1C594A0500CABA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Rimata/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericvanberkel.Rimata;
+				PRODUCT_NAME = Rimata;
+				PROVISIONING_PROFILE = "7d043b55-4269-4c63-8f02-b35d3b5809ad";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4D2C5401C594A0500CABA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Rimata/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericvanberkel.Rimata;
+				PRODUCT_NAME = Rimata;
+				PROVISIONING_PROFILE = "7d043b55-4269-4c63-8f02-b35d3b5809ad";
+			};
+			name = Release;
+		};
+		F4D2C5421C594A0500CABA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FruitAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericvanberkel.FruitAppTests;
+				PRODUCT_NAME = Rimata;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rimata.app/Rimata";
+			};
+			name = Debug;
+		};
+		F4D2C5431C594A0500CABA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FruitAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericvanberkel.FruitAppTests;
+				PRODUCT_NAME = Rimata;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rimata.app/Rimata";
+			};
+			name = Release;
+		};
+		F4D2C5451C594A0500CABA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FruitAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericvanberkel.FruitAppUITests;
+				PRODUCT_NAME = Rimata;
+				TEST_TARGET_NAME = FruitApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F4D2C5461C594A0500CABA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FruitAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericvanberkel.FruitAppUITests;
+				PRODUCT_NAME = Rimata;
+				TEST_TARGET_NAME = FruitApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4D2C5111C594A0500CABA2F /* Build configuration list for PBXProject "Rimata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D2C53C1C594A0500CABA2F /* Debug */,
+				F4D2C53D1C594A0500CABA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D2C53E1C594A0500CABA2F /* Build configuration list for PBXNativeTarget "Rimata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D2C53F1C594A0500CABA2F /* Debug */,
+				F4D2C5401C594A0500CABA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D2C5411C594A0500CABA2F /* Build configuration list for PBXNativeTarget "RimataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D2C5421C594A0500CABA2F /* Debug */,
+				F4D2C5431C594A0500CABA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D2C5441C594A0500CABA2F /* Build configuration list for PBXNativeTarget "RimataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D2C5451C594A0500CABA2F /* Debug */,
+				F4D2C5461C594A0500CABA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4D2C50E1C594A0500CABA2F /* Project object */;
+}
