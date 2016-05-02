@@ -63,7 +63,7 @@ public func getRimataCount( ) -> Int
 
     }
 
-//
+// --
     
 private var RimataBasePresent =
     [
